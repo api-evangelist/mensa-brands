@@ -1,8 +1,25 @@
 aid: mensa-brands
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mensa-brands.png
 name: Mensa Brands
-description: 'Mensa Brands is a company surfaced as a portfolio company of prosus-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Mensa Brands (rebranded BRND.ME) is an India-based, technology-led house
+  of brands founded in 2021 by Ananth Narayanan (former Myntra CEO), building and scaling
+  digital-first consumer brands across fashion, beauty, personal care, home and FMCG.
+  Backed by Accel, Tiger Global and Prosus Ventures, it reached unicorn status and
+  operates a portfolio of acquired D2C brands. This profile was surfaced as a portfolio
+  company of prosus-ventures; a public developer API surface was searched for and none
+  was found — the company exposes a corporate/consumer web presence rather than a
+  developer platform.'
 url: https://raw.githubusercontent.com/api-evangelist/mensa-brands/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Ecommerce
+- Retail
+- Fashion
+- Beauty
+- House of Brands
+- D2C
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mensa-brands-domain-security.yml
 - type: Website
   url: https://mensabrands.com
+- type: LinkedIn
+  url: https://in.linkedin.com/company/mensa-brands
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
